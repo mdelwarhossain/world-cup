@@ -27,6 +27,7 @@
 .main-body{
     display: flex;
     margin: 30px 70px;
+    margin-top: 100px;
 }
 .navigation{
     width: 300px !important;
@@ -86,4 +87,30 @@ border-radius: 10px;
 }
 .icon p{
     margin-top: 5px;
+}
+.footer{
+background-color: #161616;
+color: white;
+height: 300px;
+margin-top: 100px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.footer h1{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 80px;
+}
+.footer hr{
+    border: .2px solid rgb(50, 46, 46);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.nav-footer{
+    display: flex;
+    font-size: small;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+   margin-top: 30px;
 }
