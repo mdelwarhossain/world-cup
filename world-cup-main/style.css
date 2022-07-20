@@ -177,3 +177,35 @@ margin-right: 0px;
         height: auto;
     }   
 }
+@media only screen and (min-width: 577px) and (max-width: 992px){
+    .main-body{
+        display: flex;
+        flex-direction: column;
+    } 
+    .heading h1{
+        font-size: 22px;
+        margin-top: 50px;
+    }
+    .navigation{
+        background-color: transparent;
+        display: flex;
+        justify-content: space-evenly;
+        width: auto;
+        height: auto;
+    }
+    .nav-btn{
+        width: 140px;
+        margin-bottom: 30px;
+    }
+    .blogs-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nav-footer{
+        flex-wrap: wrap;
+        font-size: 1.5em;
+    }
+    .footer{
+        height: auto;
+    }
+}
