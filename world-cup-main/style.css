@@ -1,3 +1,11 @@
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
 .header{
     background-color: #161616;
     color: white;
@@ -8,6 +16,7 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
+    animation: color 9s in linear;
 }
 .heading h1{
     font-size: 50px;
@@ -19,9 +28,11 @@
     width: 120px;
     height: 40px;
     margin-bottom: 40px;
+    animation: color 9s infinite linear;
 }
 .banner-img img{
     height: 450px;
+    
 }
 .main-body{
     display: flex;
@@ -117,7 +128,7 @@ margin-right: 0px;
     display: flex;
     justify-content: center;
 }
-.social-media-icon p{
+.social-media-icon a{
     font-size: 2em;
     margin-left: 20px;
     margin-right: 20px;
@@ -208,4 +219,27 @@ margin-right: 0px;
     .footer{
         height: auto;
     }
+}
+.match{
+    border: .2px solid rgb(31, 29, 29);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 20px;
+}
+.next-match{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+}
+.next-match img{
+    width: 93px;
+    height: 56px;
+}
+.next-match p{
+    margin-left: 10px;
+    margin-right: 10px;
 }
