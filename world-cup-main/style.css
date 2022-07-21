@@ -18,8 +18,12 @@
     padding-top: 20px;
     animation: color 9s infinite linear;
 }
+.heading{
+    width: 45vw;
+    text-align: center;
+}
 .heading h1{
-    font-size: 50px;
+    font-size: 70px;
 }
 .watch-live-btn{
     background-color: #e71e1e;
@@ -31,7 +35,9 @@
     animation: color 9s infinite linear;
 }
 .banner-img img{
-    height: 450px;
+    width: 50vw;
+    height: auto;
+
     
 }
 .main-body{
@@ -134,59 +140,41 @@ margin-right: 0px;
     margin-right: 20px;
 }
 @media only screen and (max-width: 576px){
-    .main-body{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .header{
+      .header{
         display: flex;
         flex-direction: column;
-        width: 310px;
-        height: 472px;
-        text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 0%;
         margin: auto;
-    }
-    .heading{
-        width: 258px;
-        height: 178px;
-    }
-    .heading p{
+      }
+      .heading h1{
+        font-size: 22px;
+      }
+      .heading p{
         white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis;  
-    }
-    .heading h1{
-        font-size: 22px;
-    }
-    .banner-img img{
-        max-width: 233px;
-        height: 280px;
-
-    }
-    .main-body{
+        text-overflow: ellipsis; 
+      } 
+      .main-body{
         display: flex;
         flex-direction: column;
-    }
-    .blogs-container{
+        text-align: center;
+        margin: auto;
+      }
+      .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        width: 75vw;
+        text-align: center;
+        margin-left: 40px;
+
+      }
+      .blogs-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        text-align: center;
-    }
-    .navigation{
-        background-color: transparent;
-        text-align: center;
-    }
-    .nav-footer{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .footer{
-        height: auto;
-    }   
+      }
 }
 @media only screen and (min-width: 577px) and (max-width: 992px){
     .main-body{
