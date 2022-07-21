@@ -16,7 +16,7 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
-    animation: color 9s in linear;
+    animation: color 9s infinite linear;
 }
 .heading h1{
     font-size: 50px;
@@ -242,4 +242,37 @@ margin-right: 0px;
 .next-match p{
     margin-left: 10px;
     margin-right: 10px;
+}
+.all-groups-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+.all-groups{
+    border: .2px solid rgb(22, 21, 21);
+    border-radius: 5px;
+    padding-bottom: 10px;
+   
+}
+.all-groups h2{
+   margin-top: auto;
+   text-align: center;
+}
+
+.groups{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: auto;
+
+}
+.flag{
+    width: 80px;
+    height: 50px;
 }
